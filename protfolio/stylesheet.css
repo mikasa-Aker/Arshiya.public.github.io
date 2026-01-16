@@ -26,6 +26,67 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.brand {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.nav-link {
+    margin-left: 16px;
+    color: var(--muted);
+    text-decoration: none;
+}
+.nav-link.active {
+    color: var(--accent);
+}
+.hero {
+    padding: 60px 0;
+}
+.hero-inner {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 24px;
+}
+.hero-title {
+    font-size: 2.5rem;
+}
+.accent {
+    color: var(--accent);
+}
+.hero-subtitle {
+    color: var(--muted);
+    max-width: 600px;
+}
+.badge {
+    display: inline-block;
+    background: rgba(124,92,255,0.15);
+    color: var(--accent);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+.chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.chip {
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
