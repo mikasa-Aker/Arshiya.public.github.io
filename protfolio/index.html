@@ -132,6 +132,14 @@
         </div>
     </section>
 </main>
-
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Arshiya • Built with HTML & CSS</p>
+        <p class="muted">Public portfolio — no private info shared.</p>
+    </div>
+</footer>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
